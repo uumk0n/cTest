@@ -14,12 +14,12 @@ double Ellipse::radius() const
 
 double Ellipse::step() const
 {
-    return 0.0; // �� ������������ ��� ��������
+    return 0.0; // не используем для эллипса
 }
 
 double Ellipse::length() const
 {
-    // ����������������� ������� ��� ��������� �������
+    // Формула аппроксимации для периметра эллипса
     return M_PI * (3 * (rx + ry) - sqrt((3 * rx + ry) * (rx + 3 * ry)));
 }
 

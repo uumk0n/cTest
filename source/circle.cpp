@@ -13,7 +13,7 @@ double Circle::radius() const
 
 double Circle::step() const
 {
-    return 0.0; // �� ������������ ��� ������
+    return 0.0; // не используем для круга
 }
 
 double Circle::length() const
