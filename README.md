@@ -1,4 +1,5 @@
 # Cadex тестовое задание
-компиляция: g++ -std=c++23 -Iheaders source/*.cpp main.cpp stdafx.cpp -o cTest
 
-Использовал: Manjaro, c++23, vscode
+компиляция: go build -o cTest cmd/main.go
+
+Использовал: MacOS, go version go1.22.5 darwin/arm64, nvim
